@@ -42,11 +42,16 @@ pip install sentence-transformers
 ### 3. Set your API key
 
 ```bash
-export ANTHROPIC_API_KEY=your_key_here (macOS/Linux)
-$env:ANTHROPIC_API_KEY="your_actual_key_here" (Windows)
-NOTE: Any api key can be used, but make sure the model name is correct inside the rag.py file.
+macOS/Linux
 
->rag.py
+export ANTHROPIC_API_KEY=your_key_here
+
+Windows
+
+$env:ANTHROPIC_API_KEY="your_actual_key_here"
+
+NOTE: Inside rag.py, make sure the model name is entered in the below section.
+
 # Build the chat chain with memory
 def build_chain(vectorstore):
     llm = ChatAnthropic(
