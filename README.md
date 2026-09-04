@@ -109,7 +109,7 @@ def create_vectorstore(chunks):
 # Build the chat chain with memory
 def build_chain(vectorstore):
     llm = ChatAnthropic(
-        model="free-stack",
+        model="model-name",
         temperature=0.3
     )
 
