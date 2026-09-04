@@ -109,6 +109,7 @@ def create_vectorstore(chunks):
 # Build the chat chain with memory
 def build_chain(vectorstore):
     llm = ChatAnthropic(
+# Enter you're API KEY's model name here
         model="model-name",
         temperature=0.3
     )
