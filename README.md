@@ -51,15 +51,6 @@ $env:ANTHROPIC_API_KEY="your_actual_key_here"
 
 ### 4. Create the starter script
 
-# NOTE: Inside rag.py, make sure the model name is entered in the below section.
-
-# Build the chat chain with memory
-def build_chain(vectorstore):
-    llm = ChatAnthropic(
-        model="model-name",
-        temperature=0.3
-    )
-
 Save this as `rag.py`:
 
 ```python
