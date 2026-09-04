@@ -47,8 +47,11 @@ export ANTHROPIC_API_KEY=your_key_here
 
 Windows:
 $env:ANTHROPIC_API_KEY="your_actual_key_here"
+```
 
-NOTE: Inside rag.py, make sure the model name is entered in the below section.
+### 4. Create the starter script
+
+# NOTE: Inside rag.py, make sure the model name is entered in the below section.
 
 # Build the chat chain with memory
 def build_chain(vectorstore):
@@ -56,9 +59,6 @@ def build_chain(vectorstore):
         model="model-name",
         temperature=0.3
     )
-```
-
-### 4. Create the starter script
 
 Save this as `rag.py`:
 
