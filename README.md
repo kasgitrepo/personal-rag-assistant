@@ -21,7 +21,7 @@ You have knowledge scattered everywhere: PDFs, notes, bookmarks, docs. A RAG ass
 ```bash
 mkdir rag-assistant && cd rag-assistant
 python -m venv venv
-macOS/Linux;
+macOS/Linux:
 source venv/bin/activate
 
 Windows:
