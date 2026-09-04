@@ -42,12 +42,10 @@ pip install sentence-transformers
 ### 3. Set your API key
 
 ```bash
-macOS/Linux
-
+macOS/Linux:
 export ANTHROPIC_API_KEY=your_key_here
 
-Windows
-
+Windows:
 $env:ANTHROPIC_API_KEY="your_actual_key_here"
 
 NOTE: Inside rag.py, make sure the model name is entered in the below section.
